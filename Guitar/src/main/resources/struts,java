@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE>
+<struts>
+    <constant name="struts.enable.DynamicMethodInvocation" value="false" />
+    <constant name="struts.devMode" value="true" />
+    <package name="default" namespace="/" extends="struts-default">       
+
+		<action name="searchGuitar" class="action.GuitarAction"
+			method="search">
+			<result>/WEB-INF/content/result.jsp</result>
+		</action>
+    </package>
+
+
+   
+
+</struts>

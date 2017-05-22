@@ -1,5 +1,5 @@
 ﻿##Duck类图
-![](Duck.JPG)
+![](Duck.jpg)
 
 
 

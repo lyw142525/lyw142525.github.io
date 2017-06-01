@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF=8"?>
+<beans>
+	<bean id="mysql.instrument" class="mysqlDao.InstrumentImpl"></bean>
+	<bean id="sqlite.instrument" class="sqliteDao.InstrumentImpl"></bean>
+	<bean id="instrumentService" class="Service.InstrumentService">
+		<property name="instrumentDao" ref="sqlite.instrument"></property>
+	</bean>
+</beans>
